@@ -27,3 +27,7 @@ Push to the `main` branch triggers GitHub Actions to build and deploy this stati
 ## Limitations
 
 iPad SafariのWeb MIDI対応は保証されません。ブラウザのバックグラウンド動作中のMIDI処理も保証されません。
+
+## Verification status
+
+2026-09-23 に iPad + MIDIWeb Browser + PD Powered USB Hub 環境で、Launchkey 49 MK4、MPK mini、nanoKEY Fold、Keith McMillen 12 Step の入力、SEQTRAKへの送信、複数入力による同一チャンネル・同一ノートの保持、およびCC送信を実機確認しました。詳細は [STEP 3 verification](docs/step3-verification.md) を参照してください。
